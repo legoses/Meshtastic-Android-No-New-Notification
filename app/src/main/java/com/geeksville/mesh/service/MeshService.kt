@@ -813,7 +813,7 @@ class MeshService : Service(), Logging {
             it.shortName = p.shortName
             it.channel = channel
             if (newNode) {
-                serviceNotifications.showNewNodeSeenNotification(it)
+                //serviceNotifications.showNewNodeSeenNotification(it)
             }
         }
     }
