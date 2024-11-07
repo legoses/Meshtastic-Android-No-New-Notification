@@ -148,6 +148,15 @@
             android:text="@string/provide_location_to_mesh"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/deviceRadioGroup" />
+        
+        <CheckBox
+            android:id="@+id/toggleNewNodeNotificationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/toggle_new_node_notification"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/provideLocationCheckbox" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/warningNotPaired"
@@ -161,7 +170,7 @@
             android:text="@string/warning_not_paired"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/provideLocationCheckbox" />
+            app:layout_constraintTop_toBottomOf="@+id/toggleNewNodeNotificationButton" />
 
         <CheckBox
             android:id="@+id/analyticsOkayCheckbox"
